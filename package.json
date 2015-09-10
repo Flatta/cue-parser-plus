@@ -1,15 +1,15 @@
 {
-  "name": "cue-parser",
+  "name": "cue-parser-plus",
   "preferGlobal": false,
   "version": "0.0.3",
-  "author": "Xiao Han <justlaputa@gmail.com>",
-  "description": "A simple js library to parse cue sheet",
+  "author": "Flat <flatta@outlook.jp>",
+  "description": "A simple JS library to parse cue sheets, forked from justlaputa/cue-parser",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:justlaputa/cue-parser.git"
+    "url": "git@github.com:Flatta/cue-parser-plus.git"
   },
   "dependencise": {},
   "devDependencies": {
