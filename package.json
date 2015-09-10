@@ -1,7 +1,7 @@
 {
   "name": "cue-parser-plus",
   "preferGlobal": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Flat <flatta@outlook.jp>",
   "description": "A simple JS library to parse cue sheets, forked from justlaputa/cue-parser",
   "scripts": {
