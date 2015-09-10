@@ -1,9 +1,7 @@
 About
 =======
-cue-parser is an cue-sheet parser library written for nodejs.
-Most of the code is inspired by [cue-go](https://github.com/vchimishuk/cue-go)
-
-[![Build Status](https://travis-ci.org/justlaputa/cue-parser.png)](https://travis-ci.org/justlaputa/cue-parser)
+cue-parser-plus is a cue sheet parser library written for nodejs.
+This project was forked from [justlaputa/cue-parser](https://github.com/justlaputa/cue-parser).
 
 How to use
 =======
@@ -12,19 +10,26 @@ Add dependency in your `package.json` file:
 ```json
 {
 	"dependencies": {
-		"cue-parser": "0.0.2"
+		"cue-parser-plus": "0.0.2"
 	}
 }
 ```
 
-use it in you node source code
+Use it in your node source code.
 
 ```javascript
-var parser = require('cue-parser');
+var parser = require('cue-parser-plus');
 
-var cuesheet = parser.parse('filename.cue');
+var cueSheet = parser.parse('filename.cue');
 
-console.log(cuesheet.performer);
-console.log(cuesheet.files);
-console.log(cuesheet.files[0].tracks);
+console.log(cueSheet.performer);
+console.log(cueSheet.files);
+console.log(cueSheet.files[0].tracks);
 ```
+
+Changes from original project
+=======
+- Added support for loading a cue sheet from memory
+- Changed to remove a BOM if file contains
+- Added support for REM in FILE or TRACK
+- Added support for CRLF and LF line breaks
