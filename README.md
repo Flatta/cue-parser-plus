@@ -10,7 +10,7 @@ Add dependency in your `package.json` file:
 ```json
 {
 	"dependencies": {
-		"cue-parser-plus": "0.0.2"
+		"cue-parser-plus": "*"
 	}
 }
 ```
